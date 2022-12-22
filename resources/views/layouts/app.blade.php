@@ -14,7 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <title>Laracamp</title>
+    <link rel="icon" type="image/x-icon" href="{{asset('laravel.svg')}}">
+    @yield('title')
 </head>
 
 <body>
